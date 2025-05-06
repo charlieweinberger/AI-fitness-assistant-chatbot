@@ -21,7 +21,7 @@ export default function Home(): JSX.Element {
   // Creating state variables
   const [ messages, setMessages ]: [ Message[], Dispatch<SetStateAction<Message[]>> ] = useState([{
     role: "assistant",
-    content: "Hi! I'm the Headstarter fitness assistant. How can I help you today?"
+    content: "Hi! I'm an AI fitness assistant. How can I help you today?"
   }]);
   const [ message, setMessage ] = useState("");
 
@@ -105,7 +105,7 @@ export default function Home(): JSX.Element {
 
       {/* Navbar */}
       <div className="flex justify-center items-center h-16 bg-black text-white font-bold text-2xl">
-        Headstarter Fitness Assistant
+        AI Fitness Assistant
       </div>
 
       {/* Message window */}

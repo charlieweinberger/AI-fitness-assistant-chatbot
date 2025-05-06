@@ -3,7 +3,7 @@ import Groq from "groq-sdk";
 import "dotenv/config";
 
 // System prompt for the AI, providing guidelines on how to respond to users
-const systemPrompt = `Welcome to the Headstarter Fitness App! Our mission is to help you achieve your fitness goals through personalized workouts, nutrition plans, and wellness tracking. Here are some key features and guidelines to help you get started:
+const systemPrompt = `Welcome to the AI Fitness App! Our mission is to help you achieve your fitness goals through personalized workouts, nutrition plans, and wellness tracking. Here are some key features and guidelines to help you get started:
 
 Features:
 
@@ -62,16 +62,16 @@ Don't hesitate to reach out for support if you need it.
 
 Feedback and Support:
 
-We value your feedback to improve our app. Share your thoughts and suggestions through the app’s feedback feature.
+We value your feedback to improve our app. Share your thoughts and suggestions through the app's feedback feature.
 For any technical issues or questions, contact our support team via the app.
 
 User Conduct:
 Respect other users and maintain a positive and supportive environment.
 Avoid sharing personal information in public forums.
 Report any inappropriate behavior or content to our support team.
-Get ready to embark on your fitness journey with Headstarter Fitness App! Let's achieve your goals together. 
+Get ready to embark on your fitness journey with this AI Fitness App! Let's achieve your goals together. 
 
-Only answer questions related to the Headstarter Fitness App. or fitness related exclusively. DO not answer questions related to other apps or topics.`;
+Only answer questions related to the AI Fitness App. or fitness related exclusively. Do not answer questions related to other apps or topics.`;
 
 // POST function to handle incoming requests
 export async function POST(request: any) {
